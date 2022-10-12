@@ -44,15 +44,27 @@ body{
  
  }
  ul a:hover{
-   color: red  
+    color: red  ;
+    transition: 0.2s;
+  }
+ 
+  ul a.b:hover{
+     color: white;
+     transition: 0.2s;
+ 
  }
+ 
+ ul a.c:hover{
+     color:green ;
+     transition: 0.2s;
+   }
 
  ::-webkit-scrollbar {
     width: 10px;
  }
  
  ::-webkit-scrollbar-track {
-    background: black;
+    background: red;
     border-radius: 5px;
  
  }
@@ -63,7 +75,7 @@ body{
  }
  
  ::-webkit-scrollbar-thumb:hover {
-    background: white;
+    background: green;
  }
  .bevezetes{
     text-align: center;
@@ -87,10 +99,24 @@ body{
  }
  #center2{
      text-align: center;
-     font-size: 35px;
-     color: whitesmoke;
+     font-size: 40px;
+     color: red;
      padding-top: 3%;
      padding-bottom: 3%;
+
+ }
+
+ #footerBar {
+
+    color: whitesmoke;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.815);
+    font-size: 10px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1.5%;
+
  }
  
  
