@@ -1,10 +1,13 @@
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body {  
-    background-image: url(Forradalom2.png);     
+    background-image: url(Forradalom2.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
 
 nav{
@@ -16,6 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+
  }
  
  .nav_links {
@@ -35,6 +39,9 @@ nav{
     font-weight: 700;
     font-size: 20px;
  }
+
+
+
  ul li{
     list-style: none;
  
@@ -63,49 +70,78 @@ nav{
  }
 
 
- .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    width: 15%;
-    font-weight: 700;
-    background: var(--primary-color);
- }
- .logo::before{
-    content: "Beve";
-    color: white;
- }
- .logo::after{
-    content: "ze";
-    color: black;
- }
-
- .logo::backdrop{
-    content: "tés";
-     color: red;
-
-   
-
- }
-
-
  #bevezetes{
    border: solid 5px black;
-   background-color: black;
-   
+   background-color: rgba(0, 0, 0, 0.61);
+   border-radius: 40px 40px;
+   padding: 15px;
+   margin-left: 20%;
+   margin-right: 20%;
+
  }
 
 
  p.a{
     color: white;
+    font-size: 24px;
 }
 
 
 
 h1{
    text-align: center;
-    font-size: 50px;
-   color: white;
+    font-size: 55px;
+   color: red;
 
 }
+
+h1.b{
+    text-align: center;
+     font-size: 50px;
+    color: white;
+ 
+ }
+ 
+h1.c{
+    text-align: center;
+     font-size: 50px;
+    color:green;
+ 
+ }
+
+hr{
+    border: solid 2px white;
+}
+
+#bevezetés2{
+  margin-left: 30%;
+  margin-right: 30%;
+  border: solid 2px black;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 4px;
+  margin-bottom: 20px;
+}
+
+
+#bevezetes3{
+    border: solid 5px black;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 40px 40px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  #bevezetes4{
+    border: solid 5px black;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 40px 40px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
