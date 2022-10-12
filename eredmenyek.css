@@ -71,36 +71,6 @@ nav{
     width: 15%;
     font-weight: 700;
     background: var(--primary-color);
- }
- .logo::before{
-    content: "Beve";
-    color: white;
- }
- .logo::after{
-    content: "ze";
-    color: black;
- }
-
- .logo::backdrop{
-    content: "tés";
-     color: red;
-
-   
-
- }
-
-
- #bevezetes{
-   border: solid 5px black;
-   background-color: black;
-   
- }
-
-
- p.a{
-    color: white;
-}
-
 
 
 h1{
