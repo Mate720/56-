@@ -1,81 +1,95 @@
-
-
-body {  
-    background-image: url(Forradalom2.png);     
-    background-repeat: no-repeat;
-    background-size: cover;
-
+body{
+   background-image: url(Forradalom2.png);     
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
+
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
 nav{
-    position:fixed;
-    width: 100vw;
-    height: 60px;
-    border-bottom: 3px solid whitesmoke;
-    display: contents;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
- }
- 
- .nav_links {
-    transition: 0.2s;
- }
+   position:fixed;
+   width: 100vw;
+   height: 60px;
+   border-bottom: 3px solid black;
+   display: contents;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 2;
+}
 
- ul{
-    display:flex;
-    align-items: center;
-    height: 60px;
- }
- ul a{
-    text-decoration: none;
-    color: white;
-    margin: 0 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
- }
- ul li{
-    list-style: none;
- 
- }
- ul a:hover{
-   color: red  
- }
+.nav_links {
+   transition: 0.2s;
+}
 
- ::-webkit-scrollbar {
-    width: 10px;
- }
- 
- ::-webkit-scrollbar-track {
-    background: black;
-    border-radius: 5px;
- 
- }
- 
- ::-webkit-scrollbar-thumb {
-    background: white;
-    border-radius: 5px;
- }
- 
- ::-webkit-scrollbar-thumb:hover {
-    background: white;
- }
-
-
- .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    width: 15%;
-    font-weight: 700;
-    background: var(--primary-color);
-
-
-h1{
-   text-align: center;
-    font-size: 50px;
-   color: white;
+ul{
+   display: flex;
+   align-items: center;
+   height: 60px;
+}
+ul a{
+   text-decoration: none;
+   color: black;
+   margin: 0 2rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 20px;
+}
+ul li{
+   list-style: none;
 
 }
+ul a:hover{
+  color: red  
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: black;
+   border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+   background: white;
+   border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: white;
+}
+.bevezetes{
+   text-align: center;
+   border: solid 5px black;
+   background-color: black;
+   border: solid 5px black;
+   background-color: rgba(0, 0, 0, 0.61);
+   border-radius: 40px 40px;
+   padding: 15px;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
+.center {
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 22px;
+}
+#center2{
+    text-align: center;
+    font-size: 35px;
+    color: whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
