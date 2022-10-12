@@ -1,7 +1,111 @@
 
 
-body {
-    background-image:url(11.png);
-     
+body {  
+    background-image: url(Forradalom2.png);     
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    position:fixed;
+    width: 100vw;
+    height: 60px;
+    border-bottom: 3px solid whitesmoke;
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+ }
+ 
+ .nav_links {
+    transition: 0.2s;
+ }
+
+ ul{
+    display:flex;
+    align-items: center;
+    height: 60px;
+ }
+ ul a{
+    text-decoration: none;
+    color: white;
+    margin: 0 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ ul li{
+    list-style: none;
+ 
+ }
+ ul a:hover{
+   color: red  
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 5px;
+ 
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+    background: white;
+ }
+
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 15%;
+    font-weight: 700;
+    background: var(--primary-color);
+ }
+ .logo::before{
+    content: "Beve";
+    color: white;
+ }
+ .logo::after{
+    content: "ze";
+    color: black;
+ }
+
+ .logo::backdrop{
+    content: "tés";
+     color: red;
+
+   
+
+ }
+
+
+ #bevezetes{
+   border: solid 5px black;
+   background-color: black;
+   
+ }
+
+
+ p.a{
+    color: white;
+}
+
+
+
+h1{
+   text-align: center;
+    font-size: 50px;
+   color: white;
 
 }
