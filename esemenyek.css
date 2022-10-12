@@ -1,3 +1,11 @@
+body{
+    background-image: url(Forradalom2.png);     
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -57,3 +65,32 @@
  ::-webkit-scrollbar-thumb:hover {
     background: white;
  }
+ .bevezetes{
+    text-align: center;
+    border: solid 5px black;
+    background-color: black;
+    border: solid 5px black;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 40px 40px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+
+ .center {
+     color: whitesmoke;
+     text-align: left;
+     padding-top: 1%;
+     padding-left: 1%;
+     padding-right: 1%;
+     font-size: 22px;
+ }
+ #center2{
+     text-align: center;
+     font-size: 35px;
+     color: whitesmoke;
+     padding-top: 3%;
+     padding-bottom: 3%;
+ }
+ 
+ 
